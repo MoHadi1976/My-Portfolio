@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: rgb(1, 12, 29);
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+img {
+  border-radius: 50px;
+  width: 50vw;
+}
+#code {
+  width: 750px;
+  height: 100vh;
+}
+.heading1 {
+  margin-inline-start: 500px;
+}
+.heading2 {
+  margin-inline-start: 550px;
+}
+nav {
+  float: left;
+}
+
+nav {
+  display: inline-block;
+  margin-right: 75px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+
+  position: relative;
+}
+
+nav a,
+a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #a8a8a8;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: rgb(6, 10, 63);
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+header {
+  background-color: tomato;
+  height: 9vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.favourite {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.favFood,
+.favSports {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+.main1 {
+  position: relative;
+  margin-inline-end: 150px;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  width: 250px;
+  padding: 112px 20px 0 50px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: relative;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 84px;
+  width: 80vw;
+  padding: 12px 24px 12px 24px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.Filler {
+  display: flex;
+  flex-direction: row;
+}
+.myTargets {
+  position: relative;
+  margin-inline-end: 100px;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  margin-left: 57px;
+  width: 250px;
+  padding: 112px 48px 0 50px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+#eye {
+  position: relative;
+  height: 100vh;
+  width: 60vw;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.links {
+  position: relative;
+  margin-inline-end: 409px;
+  margin-top: 147px;
+  margin-bottom: 39px;
+  margin-left: 66px;
+  height: 10vh;
+  width: 228px;
+  padding: 29px 0px 20px 50px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.form {
+  position: relative;
+  margin-inline-end: 255px;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  width: 220px;
+  padding: 93px 20px 0 50px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  border-radius: unset;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+h4 {
+  width: 175px;
+}
+.box {
+  position: relative;
+  margin-inline-end: 150px;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  width: 250px;
+  padding: 0 0 0 50px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
